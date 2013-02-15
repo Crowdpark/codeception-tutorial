@@ -1,0 +1,41 @@
+{
+    "name":"Crowdpark/codeception-tutorial",
+    "type":"tutorial",
+    "description":"codeception bdd tutorial",
+    "keywords":["bdd"],
+    "homepage":"http://github.com/Crowdpark/codeception-tutorial",
+    "license":"MIT",
+    "support":{
+        "issues":"https://github.com/Crowdpark/codeception-tutorial/issues"
+    },
+    "authors":[
+        {
+            "name":"Sebastian Schmidt",
+            "email":"sebastian.schmidt@crowdpark.com",
+            "homepage":"http://www.crowdpark.com",
+            "role":"Developer"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "Application\\":"application/php"
+        }
+    },
+    "require":{
+        "php":">=5.3.3",
+        "Codeception/Codeception":"master"
+    },
+
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://packages.zendframework.com/"
+        },
+        {
+            "type":"vcs",
+            "url":"https://github.com/Codeception/Codeception.git"
+        }
+    ],
+
+    "minimum-stability":"dev"
+}
